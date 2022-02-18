@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ToDo LIST by Aizhan</title>
+   <link rel="stylesheet" href="css/a.css">
+</head>
+<body>
+     <div id="text">
+        <h1 class ="txt1">ToDo List</h1>
+        <h1 class ="txt">ToDo List</h1></div>
+    <div class="container">
+       
+        <input id="inputToDo" type="text" placeholder="New Task">
+        <button id="addToDo">Add</button>
+        <div class="to-dos" id="conToDo">
+        </div>
+    </div>
+    <script>
+      let inputToDo = document.getElementById('inputToDo');
+      let Add = document.getElementById('addToDo');
+      let conToDo = document.getElementById('conToDo');
+      Add.addEventListener('click', function(){
+          var paragraph = document.createElement('p');
+          paragraph.classList.add('paragraph-styling');
+          paragraph.innerText = inputToDo.value;
+          conToDo.appendChild(paragraph);
+          inputToDo.value = "";
+          paragraph.addEventListener('click', function(){
+              paragraph.style.textDecoration = "line-through";
+          })
+          paragraph.addEventListener('dblclick', function(){
+              conToDo.removeChild(paragraph);
+          })
+      })</script>
+</body>
+</html>
