@@ -1,0 +1,19 @@
+<header>⁂My Online Store⁂</header>
+<div id="controls">
+  <button class="switch-button" (click)="show(1)">Candles</button>
+  <button class="switch-button" (click)="show(2)">Notebooks</button>
+  <button class="switch-button" (click)="show(3)">Pencils</button>
+  <button class="switch-button" (click)="show(4)">Stickers</button>
+</div>
+<div>
+  <app-product-list [currentList]="currentList"></app-product-list>
+</div>
+<!--<div id="item" *ngFor="let product of productItem">-->
+<!--  <p><a id="name" target="_blank" href={{product.link}}>{{product.name}}</a></p><br>-->
+<!--  <p id="rating">Rating {{product.rating}} of 5</p><br><br>-->
+<!--  <img src={{product.image}}><br>-->
+<!--  <pre id="description">{{product.description}}</pre>-->
+<!--  <button (click)="share(product)">Share</button>-->
+<!--</div>-->
+
+

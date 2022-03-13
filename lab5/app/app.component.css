@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+  height: 50px;
+  padding-top: 18px;
+  background-color: #006400;
+  color: white;
+  font-size: 30px;
+  font-family: Copperplate Gothic Light;
+}
+.switch-button {
+  background-color: #cd5c5c;
+  height: 30px;
+  width: 80px;
+  border: 3px solid firebrick;
+  border-radius: 6px;
+  margin-right: 5px;
+  color: white;
+}
+.switch-button:hover {
+  background-color: rgb(236, 125, 125);
+}
+#controls {
+  margin-top: 20px;
+  margin-left: 37%;
+}
+
