@@ -1,0 +1,58 @@
+header {
+  text-align: center;
+  height: 15%;
+  background-color: darkgreen;
+  color: white;
+  font-size: 20px;
+}
+#item {
+  width: 600px;
+  height: 370px;
+  border: 1px solid black;
+  display: inline-block;
+  background-color: white;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+img {
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  float: left;
+}
+#name {
+  margin-right: 15px;
+  font-weight: bolder;
+  color: darkslategray;
+  text-decoration: none;
+  float: right;
+}
+#name:hover {
+  text-decoration: underline;
+  text-decoration-color: darkslategray;
+}
+#rating {
+  float: right;
+  margin-right: 15px;
+  color: orangered;
+  font-family: Bahnschrift;
+}
+#description {
+  background-color: palegoldenrod;
+  height: 200px;
+  overflow: auto;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Corbel;
+}
+button {
+  float: right;
+  background-color: darkseagreen;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  margin-right: 20px;
+}
+

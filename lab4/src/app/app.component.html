@@ -1,0 +1,10 @@
+<header>My Candles Store</header>
+<div id="item" *ngFor="let product of productItem">
+  <p><a id="name" href={{product.link}}>{{product.name}}</a></p><br>
+  <p id="rating">Rating {{product.rating}} of 5</p><br><br>
+  <img src={{product.image}}><br>
+  <div id="description">{{product.description}}</div>
+  <button (click)="share(product)">Share</button>
+</div>
+
+
