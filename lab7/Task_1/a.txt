@@ -1,0 +1,31 @@
+#Ввод-вывод: Задачи на ввод-вывод и арифметические операции
+
+#A
+
+import math
+n=(int(input()))
+m=(int(input()))
+ans=(math.sqrt((n*n)+(m*m)))
+print(ans)
+
+#B
+
+x=int(input())
+text1="The next number for the number {} is {}."
+text2="The previous number for the number {} is {}."
+print(text1.format(x,x+1))
+print(text2.format(x,x-1))
+
+#C
+
+x1=int(input())
+x2=int(input())
+sum=x2//x1
+print(sum)
+
+#D
+
+x1=int(input())
+x2=int(input())
+sum=x2%x1
+print(sum)
