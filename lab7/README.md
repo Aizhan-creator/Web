@@ -1,4 +1,4 @@
-#Laboratory work 7
+# Laboratory work 7
 Task 1
 https://informatics.msk.ru/
 Ввод-вывод, оператор присваивания (А-E)
